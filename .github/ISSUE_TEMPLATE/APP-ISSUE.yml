@@ -54,7 +54,8 @@ body:
       label: Screenshots
       description: If applicable, drag and drop in this field screenshots to help explain your problem. 
       placeholder: |
-        Android: can be created by pressing the Volume Down and Power Button at the same time. \n
+        Android: can be created by pressing the Volume Down and Power Button at the same time.
+
         iOS: with Face ID - press the side button and volume up button; with a Home button - press the Home button and the side button.
   - type: textarea
     id: comments
