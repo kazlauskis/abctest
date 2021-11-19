@@ -29,16 +29,19 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-  - type: dropdown
-    id: version
+  - type: input
+    id: app-version
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: App Version
+      description: You can find this information by going to the setting menu tab in the app and scrolling to the bottom of the page.
+      placeholder: e.g. 1.0.0
     validations:
-      required: true
+      required: true  
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: e.g. Motorola g7
   - type: dropdown
     id: OS
     attributes:
@@ -46,8 +49,6 @@ body:
       options:
         - Android
         - iOS
-    validations:
-      required: true
   - type: textarea
     id: screenshots
     attributes:
