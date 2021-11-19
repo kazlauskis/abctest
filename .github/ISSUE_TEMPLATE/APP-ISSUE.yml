@@ -52,8 +52,8 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: |
-        If applicable, drag and drop in this field screenshots to help explain your problem. 
+      description: If applicable, drag and drop in this field screenshots to help explain your problem. 
+      placeholder: |
         Android: can be created by pressing the Volume Down and Power Button at the same time.
         iOS: On an iPhone with Face ID - simultaneously press and then release the side button and volume up button. On an iPhone with a Home button - simultaneously press and then release the Home button and the side button or Sleep/Wake button (depending on your model).
   - type: textarea
