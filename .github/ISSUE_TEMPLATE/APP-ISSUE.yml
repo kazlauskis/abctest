@@ -44,8 +44,9 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: Operating system
+    id: OS
     attributes:
+      label: Operating system
       options:
         - Android
         - iOS
