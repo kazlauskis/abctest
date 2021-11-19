@@ -42,6 +42,12 @@ body:
     attributes:
       label: Device
       placeholder: e.g. Motorola g7
+  - type: input
+    id: time
+    attributes:
+      label: When did this happen
+      description: If you can provide the time of the day this issue has happened then we can look into our server logs to find anything related to your case.
+      placeholder: e.g. Monday, 20:21
   - type: dropdown
     id: OS
     attributes:
