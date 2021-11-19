@@ -1,6 +1,6 @@
 name: Report an issue
 description: Report an issue
-title: ""
+title: "Issue: "
 labels: ["mobile app"]
 body:
   - type: markdown
